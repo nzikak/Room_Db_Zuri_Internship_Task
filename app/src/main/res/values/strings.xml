@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Contact List</string>
+    <string name="add_contact_fab_content_description">Add new contact</string>
+    <string name="create_new_contact_title">Create New Contact</string>
+    <string name="name_edit_text_hint">Name</string>
+    <string name="phone_number_edit_text_hint">Phone Number</string>
+    <string name="save_button_text">Save</string>
+</resources>
