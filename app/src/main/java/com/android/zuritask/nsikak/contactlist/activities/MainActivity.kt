@@ -19,6 +19,8 @@ class MainActivity : AppCompatActivity(), ContactCategoryAdapter.OnItemClickList
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        val userName = intent.extras?.getString(USER_NAME_INTENT_EXTRA_KEY)
+        binding.userWelcomeMessageTextView.text = "Welcome, $userName"
 
         setUpCategories()
 
